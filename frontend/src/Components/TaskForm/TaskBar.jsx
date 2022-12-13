@@ -52,21 +52,15 @@ const TaskBar = () => {
         <button
           disabled={
             date === null ||
-            date === "" ||
             title === null ||
-            title === "" ||
-            taskText === null ||
-            taskText === ""
+            taskText === null 
               ? true
               : false
           }
           className={`Task__Add-btn ${
             date === null ||
-            date === "" ||
             title === null ||
-            title === "" ||
-            taskText === null ||
-            taskText === ""
+            taskText === null 
               ? "Disabled-btn"
               : ""
           }`}
