@@ -1,0 +1,42 @@
+.Header__wrapper {
+  height: 70px;
+  box-shadow: 0px 0px 5px 5px #00000017;
+  display: flex;
+  padding: 0px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header__wrapper > * {
+  cursor: pointer;
+}
+.Header__Main-logo {
+  width: 140px;
+  /* border: 2px solid red; */
+}
+.Header__Links-wrapper {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+  width: 200px;
+}
+.Header__Links-wrapper > div {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+}
+.Header__Links-wrapper > div > p {
+  padding-top: 80%;
+}
+.Header__Links-wrapper div:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.Header__profile-icon {
+  /* border: 2px solid red; */
+  width: 60px;
+}

@@ -1,0 +1,15 @@
+.NewsBanner__wrapper {
+  width: 75%;
+  margin: 25px auto;
+  border-radius: 1.5rem;
+  height: 200px;
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/721758364/display_1500/stock-photo-a-man-using-laptop-computer-working-on-new-project-idea-at-his-desk-in-the-office-late-at-night-721758364.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.NewsBanner__news{
+    color: white;
+    padding-top: 140px;
+    padding-left: 20px;
+}
