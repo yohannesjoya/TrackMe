@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useReducer } from "react";
+import React, { createContext, useContext, useReducer, useState } from "react";
 
 const GlobalState = createContext();
 const GlobalContextProvider = ({ children, initialState, reducer }) => {
@@ -12,3 +12,4 @@ const GlobalContextProvider = ({ children, initialState, reducer }) => {
 export const useGlobalState = () => useContext(GlobalState);
 
 export default GlobalContextProvider;
+
